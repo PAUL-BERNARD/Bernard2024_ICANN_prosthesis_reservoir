@@ -1,0 +1,8 @@
+pandas==1.5.2
+matplotlib==3.5.1
+ipykernel==6.19.2
+numpy==1.23.5
+reservoirpy==0.3.10
+keras==2.12.0
+tensorflow==2.12.0
+ikpy==3.3
