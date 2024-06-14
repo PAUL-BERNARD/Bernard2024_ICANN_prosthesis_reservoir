@@ -6,3 +6,4 @@ reservoirpy==0.3.10
 keras==2.12.0
 tensorflow==2.12.0
 ikpy==3.3
+scikit-learn==1.4.1.post1
