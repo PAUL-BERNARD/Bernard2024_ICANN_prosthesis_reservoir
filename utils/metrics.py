@@ -5,13 +5,13 @@ def last_step_indices(info):
     tgtNumber = info[:, 2]
 
     tgtNumberChange = tgtNumber[1:] != tgtNumber[:-1]
-    return np.where(tgtNumberChange)
+    return np.where(tgtNumberChange)[0]
 
 
 def red_indices(info):
     tgtRed = info[:, 3]
 
-    red_indices = np.where(tgtRed)
+    red_indices = np.where(tgtRed)[0]
     return red_indices
 
 
